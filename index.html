@@ -1,50 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatGPT</title>
+    <title>מערכת פניות - לוגו ותפריט</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <nav class="nav-bar">
 
-            <h1 >ChatGPT</h1>
-            <img src="./images/gpt-logo.png" alt="">
-            <ul class="nav-links">
-                
+    <header>
 
-                <li><a href="index.html" style="text-decoration: none">Home</a></li>
-                <li><a href="images.html" style="text-decoration: none">Images</a></li>
-               
-               
-            </ul>
-             <button class="btn-nav">?</button>
-            
-              <button class="btn-nav">Sign up for free</button>
-               <button class="btn-nav">Login</button>
-             
-      
-    </nav>
-   
-     <main class="contain">
-        <h1>What's on the agenda today?</h1>
-        <div class="card-chat">
-            <input type="text" id='chat' class="input-field" placeholder="Ask anything...">
-           
-             <button class="btn-under"> Attach</button>
-              <button class="btn-under"> Searching</button>
-               <button class="btn-under">for Study</button>
-                <button class="btn-under"> Image</button>
-                <button class="voice"> Voice</button>
-        </div>
-     </main>
-   
-    
+
+
+
+            <div class="botton-right">
+            <button class="login">login</button>
+            <button class="signin">sign up for free</button>
+            <button class="login">?</button>
+</div>
+        <nav class="Navigation">
+
+            <div class="logo">ChatGPT
+                <img src="image.png" alt="" width="38px">
+            </div>
+            <a href="#">שירותים</a>
+            <a href="#">אודות</a>
+            <a href="./agent.html">Agent</a>
+            <a href="./images.html">Images</a>
+            <a href="./index.html">Index</a>
+        </nav>
+
+
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            <h1>what's on the agenda today?</h1>
+        </main>
+        <section id="complaintBox" class="form-container">
+            <h3>טופס תלונה</h3>
+            <form>
+                <label>בחר שפה:</label>
+                <select>
+                    <option>עברית</option>
+                    <option>English</option>
+                    <option>Русский</option>
+                </select>
+
+                <label>
+                    <h1>what's on the agenda today?</h1>
+                </label>
+                <textarea rows="5" placeholder="Ask "></textarea>
+
+                <button type="button" onclick="alert('התלונה נשלחה!')"> </button>
+    </div>
+    </form>
+
+    </section>
+
     <footer>
         <p> כל הזכויות שמורות לברק </p>
     </footer>
 
-  
+
 </body>
+
 </html>
